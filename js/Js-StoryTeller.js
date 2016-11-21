@@ -16,3 +16,5 @@ document.getElementById('comp1').innerHTML = compagnon1;
 document.getElementsByClassName('comp2')[0].innerHTML = compagnon2;
 document.getElementsByClassName('comp2')[1].innerHTML = compagnon2;
 document.getElementsByClassName('comp2')[2].innerHTML = compagnon2;
+
+console.log("Prenom = " + prenom, "Compagnon = " + compagnon, "Classe = " + classe, "Monstre = " + monstre, "Membre = " + membre, "Compagnon1 = " + compagnon1, "Compagnon2 = " + compagnon2);
