@@ -1,8 +1,22 @@
+body{
+  background-image: url("../images/parchemin.png");
+  background-size: cover;
+}
 p{
   text-indent: 50px;
-  
+  padding-left: 75px;
+  padding-right: 80px;
+  margin-left: 50px;
+  font-size: 18px;
+  font-family: Verdana;
+  color: #222222;
 }
 
 span{
-  color : red;
+  color : black;
+  font-weight: bold;
+}
+
+div{
+  margin: 15%
 }
