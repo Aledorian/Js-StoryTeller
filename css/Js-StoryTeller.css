@@ -11,11 +11,12 @@ body{
 p{
   text-indent: 50px;
   padding-left: 75px;
-  padding-right: 80px;
+  padding-right: 75px;
+  padding-bottom: 40px;
   margin-left: 50px;
-  font-size: 23px;
+  font-size: 25px;
   font-family: Cardinal;
-  color: #222222;
+  color: #444444;
 }
 
 span{
@@ -24,5 +25,28 @@ span{
 }
 
 div{
-  margin: 15%
+  margin-left: 25%;
+  margin-top: 10%;
+  height: auto;
+  width: auto;
+}
+
+#debut{
+  animation: fadein 4s;
+  animation-play-state: paused;
+}
+
+#milieu{
+  animation: fadein 12s;
+  animation-play-state: paused;
+}
+
+#fin{
+  animation: fadein 20s;
+  animation-play-state: paused;
+}
+
+@keyframes fadein {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
 }
