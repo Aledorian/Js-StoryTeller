@@ -13,13 +13,15 @@ document.getElementById('milieu').style.animationPlayState="running"
 document.getElementById('fin').style.animationPlayState="running"
 document.getElementById('principal').innerHTML = prenom;
 document.getElementById('amis').innerHTML = compagnon;
-document.getElementById('creature').innerHTML = monstre;
+document.getElementsByClassName('creature')[0].innerHTML = monstre;
+document.getElementsByClassName('creature')[1].innerHTML = monstre;
 document.getElementById('metier').innerHTML = classe;
 document.getElementById('blessure').innerHTML = membre;
 document.getElementById('comp1').innerHTML = compagnon1;
 document.getElementsByClassName('comp2')[0].innerHTML = compagnon2;
 document.getElementsByClassName('comp2')[1].innerHTML = compagnon2;
 document.getElementsByClassName('comp2')[2].innerHTML = compagnon2;
+
 
 console.log("Prenom = " + prenom);
 console.log("Compagnon = " + compagnon);
