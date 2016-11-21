@@ -1,8 +1,8 @@
-var prenom = "Elizra";//prompt("Entrez un prénom.");
-var compagnon = "Alastasia et Aladenor";//prompt ("Entrez deux autres prénoms séparé par un 'et'");
-var classe = "voleur";//prompt("Entrez une classe d'héroïque fantasy.");
-var monstre = "vampire"//prompt("Entrez le nom commun d'une créature fantastique");
-var membre = "jambe gauche"//prompt("Entrez un membre du corps humain.");
+var prenom = prompt("Entrez un prénom.");
+var compagnon = prompt ("Entrez deux autres prénoms séparé par un 'et'");
+var classe = prompt("Entrez une classe d'héroïque fantasy.");
+var monstre = prompt("Entrez le nom commun d'une créature fantastique");
+var membre = prompt("Entrez un membre du corps humain.");
 var splCompagnon = compagnon.split("et");
 var compagnon1 = splCompagnon[0];
 var compagnon2 = splCompagnon[1];
