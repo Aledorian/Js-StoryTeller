@@ -49,9 +49,9 @@ function sexe() {
     }
 }
 
-// definie()
-//
-// definie2()
+definie()
+
+definie2()
 
 bless()
 
@@ -74,7 +74,7 @@ function refresh() {
     }
 }
 
-setInterval("refresh()", 50);
+setInterval("refresh()", 150);
 
 
 var test2 = ["Nous", "avons", "donc", "embarqué", "sur", "un", "vieux", "rafiot", "pour", "traverser", "une", "mer", "agitée,", "je", "ne", "pensais", "pas", "que", "ce", "navire", "allé", "résister", "à", "la", "traversée,", "mais", "nous", "sommes", "bel", "et", "bien", "arrivés", "sur", "l’île", "aux", "échos.",
@@ -100,7 +100,7 @@ function refresh2() {
     }
 }
 
-setInterval("refresh2()", 50);
+setInterval("refresh2()", 150);
 
 var test3 = ["La", "vision", "qui", "ai", "apparue", "devant", "nous", "était", "effroyable,", "un", "charnier", "pourrissant","remplis", "de", "corps", "exsangues,", "de", "vers", "grouillants",
 "se", "repaissant", "de", "ces", "carcasses,", "et", "surtout", "face", "à", "moi", "se", "trouvait", "mon", "pire", "ennemi.", genre2, nomMonstre, "qui", "avait", "ravagé", "mon",
@@ -111,7 +111,8 @@ var test3 = ["La", "vision", "qui", "ai", "apparue", "devant", "nous", "était",
  "coulant", "sur", "mes", "mains.","Ne", "pouvant", "plus", "bouger", "tétanisé", "par", "cette", "vision", "je", "fus", "sans", "défense.", "Je", "ne", "tardai", "pas",
  "à", "rejoindre", "mes", "deux", "compagnons,", "enfin", "c’est", "ce", "que", "j’espérai.", "Mais", "non", "cette", "créature", "avait", "d’autres", "plans", "pour", "moi.", "Depuis",
  "ce", "jour", "je", "ne", "suis", "plus", "qu’un", "corps", "sans", "volonté", "à", "son", "service,", "ayant", "plus", "que", "mes", "souvenirs", "pour", "me",
- "hanter."];
+ "hanter."
+];
 
 
 var a = 0;
@@ -129,8 +130,7 @@ function refresh3() {
     }
 }
 
-setInterval("refresh3()", 50);
-// document.getElementById('debut').innerHTML = test.join(" ");
+setInterval("refresh3()", 150);
 
 document.getElementById('debut').style.animationPlayState = "running";
 document.getElementById('milieu').style.animationPlayState = "running"
