@@ -31,7 +31,7 @@ div{
   width: auto;
 }
 
-#debut{
+/*#debut{
   animation: fadein 4s;
   animation-play-state: paused;
 }
@@ -39,15 +39,15 @@ div{
 #milieu{
   animation: fadein 12s;
   animation-play-state: paused;
-}
+}*/
 
-#fin{
+/*#fin{
   animation: fadein 20s;
   animation-play-state: paused;
-}
+}*/
 
-@keyframes fadein {
+/*@keyframes fadein {
   0%{opacity: 0;}
   50%{opacity: 0.5}
   100%{opacity: 1;}
-}
+}*/
